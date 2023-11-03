@@ -1,0 +1,36 @@
+{
+ "name": "chatbot",
+ "version": "1.0.0",
+ "description": "Chatbot Equipe 14",
+ "main": "app.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "node app.js",
+  "run": "node app.js"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/ThomasLepercq/Chatbot.git"
+ },
+ "keywords": [
+  "Chatbot",
+  "ServicesWeb",
+  "Equipe14"
+ ],
+ "author": "Julie BOUDEBS, Thomas LEPERCQ",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/ThomasLepercq/Chatbot/issues"
+ },
+ "homepage": "https://github.com/ThomasLepercq/Chatbot#readme",
+ "dependencies": {
+  "babel-core": "^6.26.3",
+  "discord.js": "^12.2.0",
+  "dotenv": "^8.2.0",
+  "express": "^4.17.1",
+  "mongodb": "^3.5.7",
+  "mongoose": "^5.9.17",
+  "rivescript": "^2.1.0",
+  "webpack": "^4.43.0"
+ }
+}

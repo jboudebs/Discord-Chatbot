@@ -1,0 +1,10 @@
++ google *
+- Google Search: <call>google <star></call>
+
++ * or something
+- Or something.
+
+> object google javascript
+	var query = escape(args.join(" "));
+	return "<a href=\"http://www.google.com/search?q=" + query + "\">Click Here!</a>";
+< object
